@@ -1,4 +1,4 @@
-import { defaultImages } from "../pages/components/Carousel";
+
 
 export default function visuals() {
   return (
