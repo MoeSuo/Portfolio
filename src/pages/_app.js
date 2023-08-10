@@ -14,7 +14,6 @@ function App({ Component, pageProps }) {
   <Component {...pageProps} />
   
   <Footer />
-  {/* <Carousel images={defaultImages}  /> */}
   {/* https://coolors.co/0f3e52-b4e6f1-fbf6f3-f0f4f5-f8673b-feb464-d8f3fa */}
   </div>
   </>

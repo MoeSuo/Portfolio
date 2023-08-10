@@ -1,5 +1,3 @@
-import Carousel from "./components/Carousel";
-import { defaultImages } from "../pages/components/Carousel";
 
 export default function visuals() {
   return (
@@ -8,7 +6,6 @@ export default function visuals() {
         <span className="">
           Mohamed Sallam SW - Portfolio
         </span>
-    <Carousel images={defaultImages}/>
       </div> */}
       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12 ">
         <div className="w-full items-center flex-wrap md:-m-2 flex flex-col md:flex-row">
