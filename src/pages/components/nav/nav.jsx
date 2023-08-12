@@ -6,9 +6,9 @@ import Link from "next/link";
 import Image from "next/image";
 const navigation = [
   { name: "CV", href: "/", current: true },
-  { name: "Experience", href: "#", current: false },
+  // { name: "Experience", href: "#", current: false },
   { name: "Visuals", href: "/visuals", current: false },
-  // { name: "VR & AR", href: "/vr-ar", current: false },
+   { name: "VR & AR", href: "/vr-ar", current: false },
 ];
 
 function classNames(...classes) {
