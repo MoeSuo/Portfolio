@@ -84,15 +84,19 @@ export default function NavBar() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* Download button */}
+                {router.pathname === "/" && ( // Render only on CV page
                 <Link
+                target="_blank"
                   href="Mohamed_Sallam_CV.pdf" // Replace with the actual path to your PDF file
                   download="Mohamed_Sallam_CV.pdf" // Customize the downloaded file name
-                  className="relative rounded-full bg-gray-200 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
+                  className="flex  px-4 relative rounded-full bg-gray-200 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
                 >
+                  CV
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Download</span>
                   <HiDownload className="h-6 w-6" aria-hidden="true" />
                 </Link>
+                )}
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
