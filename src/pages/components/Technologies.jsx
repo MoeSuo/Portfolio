@@ -20,9 +20,9 @@ export default function Technologies() {
               <br></br>
               <br></br>
               <div className="flex flex-col md:flex-row justify-between">
-                <div className="bg-[#F4FDFF]  my-2 p-4 md:w-[30%] shadow-sm ">
-                  <strong>Frontend:</strong>
-                  <ul>
+                <div className="bg-[#F4FDFF]  my-2 p-4 md:w-[30%] shadow-sm  opacity-100 transition duration-300 ease-in-out hover:bg-opacity-10 ">
+                  <strong >Frontend:</strong>
+                  <ul className=" my-2">
                     <li> - JavaScript</li>
                     <li> - React js</li>
                     <li> - NEXT.js</li>
@@ -32,18 +32,18 @@ export default function Technologies() {
                   </ul>
                 </div>
 
-                <div  className="bg-[#F4FDFF]  my-2 p-4  md:w-[30%] shadow-sm ">
-                  <strong>Backend:</strong>
-                  <ul>
+                <div  className="bg-[#F4FDFF]  my-2 p-4  md:w-[30%] shadow-sm  opacity-100 transition duration-300 ease-in-out hover:bg-opacity-10 ">
+                  <strong >Backend:</strong>
+                  <ul className=" my-2">
                     <li> - Prisma</li>
                     <li> - MongoDB</li>
                     <li> - OpenAPI specifications</li>
                     <li> - PHP</li>
                   </ul>
                 </div>
-                <div  className="bg-[#F4FDFF]  my-2 p-4 md:w-[30%] shadow-sm ">
-                  <strong>Other Tools:</strong>
-                  <ul>
+                <div  className="bg-[#F4FDFF]  my-2 p-4 md:w-[30%] shadow-sm  opacity-100 transition duration-300 ease-in-out hover:bg-opacity-10 ">
+                  <strong >Other Tools:</strong>
+                  <ul className=" my-2">
                     <li> - Swagger</li>
                     <li> - Three js</li>
                     <li> - Three fiber</li>
