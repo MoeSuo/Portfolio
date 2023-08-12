@@ -4,12 +4,19 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { HiDownload } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
+import { FaSlack  } from "react-icons/fa";
+import { ImWhatsapp, ImMobile, ImMail4 } from "react-icons/im";
+
 const navigation = [
   { name: "CV", href: "/", current: true },
   // { name: "Experience", href: "#", current: false },
   { name: "Visuals", href: "/visuals", current: false },
-   { name: "Virtual Architecture", href: "/Virtual_Architecture", current: false },
-   { name: "Video Production", href: "/Videos", current: false },
+  {
+    name: "Virtual Architecture",
+    href: "/Virtual_Architecture",
+    current: false,
+  },
+  { name: "Video Production", href: "/Videos", current: false },
 ];
 
 function classNames(...classes) {
@@ -17,8 +24,6 @@ function classNames(...classes) {
 }
 
 export default function NavBar() {
-
-  
   return (
     <Disclosure as="nav" className="bg-[#F0F4F5] h-28 relative z-10">
       {({ open }) => (
@@ -54,20 +59,20 @@ export default function NavBar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                       <Link key={item.name} href={item.href}>
-                       {/* Use a div or another element instead of the anchor */}
-                       <div
-                         className={classNames(
-                           item.current
-                             ? "bg-gray-900 text-white"
-                             : "text-gray-800 hover:bg-gray-700 hover:text-white",
-                           "rounded-md px-3 py-2 text-sm font-medium"
-                         )}
-                         aria-current={item.current ? "page" : undefined}
-                       >
-                         {item.name}
-                       </div>
-                     </Link>
+                      <Link key={item.name} href={item.href}>
+                        {/* Use a div or another element instead of the anchor */}
+                        <div
+                          className={classNames(
+                            item.current
+                              ? "bg-gray-900 text-white"
+                              : "text-gray-800 hover:bg-gray-700 hover:text-white",
+                            "rounded-md px-3 py-2 text-sm font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </div>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -107,12 +112,13 @@ export default function NavBar() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            href="#"
+                            href="mailto:mohamedsallam223v@gmail.com"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
+                             <ImMail4 className="mr-2 h-4 w-4 inline-block" />
                             Email
                           </Link>
                         )}
@@ -120,26 +126,43 @@ export default function NavBar() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            href="#"
+                            href="tel:+358452548077"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
+                             <ImMobile className="mr-2 h-4 w-4 inline-block" />
                             Call
+                          
                           </Link>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            href="#"
+                            href="https://api.whatsapp.com/send?phone=1234567890"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                            WhatsApp
+                            <ImWhatsapp className="mr-2 h-4 w-4 inline-block" />
+                            Whatsapp
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            href="https://mohamedsallam.slack.com/"
+                            className={classNames(
+                              active ? "bg-gray-100" : "",
+                              "block px-4 py-2 text-sm text-gray-700"
+                            )}
+                          >
+                            <FaSlack className="mr-2 h-4 w-4 inline-block" />
+                            Slack
                           </Link>
                         )}
                       </Menu.Item>
