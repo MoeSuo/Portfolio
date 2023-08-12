@@ -18,11 +18,11 @@ export default function Summary() {
  <div className="max-w-[90%] m-auto mt-10  px-8 text-left">
   <h1 className="text-[#F8673B] font-bold text-2xl text-left">Summary</h1>
             
-            <p className="w-full ">I am a passionate individual driven by an endless curiosity to learn new technologies. 
+            <p className="w-full ">I'm a highly skilled interactive media designer with a unique professional journey. My background in architecture, alongside my ongoing studies in 360-degree, VR/AR, and UX/UI, has shaped me into a well-rounded generalist. While these form the core of my skills and expertise, I am equally capable of assuming responsibilities and providing assistance whenever required.
 
-              My goal is to combine my past experiences and education with my programming skills to create dynamic and interactive digital experiences that have a lasting impact. 
-            
-              With my unique mix of design and technical expertise, along with a strong commitment to constant learning, I am well-prepared to be a valuable asset and a positive influence for any forward-thinking company.
+Currently, I'm enhancing my skills through software development training at BearIT OY. This will enable me to create even more dynamic digital experiences.
+
+My creativity and innovative problem-solving abilities set me apart. With my expertise, I'm confident in assisting your company to create groundbreaking interactive media that leaves a lasting impression on customers.
               </p>
           </div>
  </>
