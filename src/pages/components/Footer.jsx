@@ -1,15 +1,3 @@
-import { Fragment } from "react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { HiDownload } from "react-icons/hi";
-import Link from "next/link";
-import Image from "next/image";
-const navigation = [
-  { name: "Summary", href: "#", current: true },
-  { name: "Experience", href: "#", current: false },
-  { name: "Education", href: "#", current: false },
-  { name: "Expertise", href: "#", current: false },
-];
-
 
 export default function Footer() {
   return (
