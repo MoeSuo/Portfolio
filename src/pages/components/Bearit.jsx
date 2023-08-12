@@ -12,7 +12,7 @@ export default function Bearit() {
           {/* <Link href="https://bearit.fi">bearit.fi</Link> */}
           <Link href="https://bearit.fi">
             <Image
-              className="mb-8"
+              className="mb-4"
               src="/bearit.png"
               width={200}
               height={200}

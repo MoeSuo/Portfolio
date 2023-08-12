@@ -7,7 +7,7 @@ export default function Yle() {
       <div className="md:mx-12 my-8  flex flex-col ">
 
           <h2 className="text-gray-800 font-bold text-left   mb-4">Latest Project</h2>
-        <div className="flex  ">
+        <div className="flex md:flex-row flex-col ">
           <Link href="https://www.aalto.fi/en/news/can-i-vote-an-online-tool-for-spreading-the-word-about-local-democracy-in-finland">
             <Image
               className="  md:mr-8  "
@@ -29,7 +29,7 @@ export default function Yle() {
         </div>
 
 
-        <div className="flex ">
+        <div className="flex md:flex-row flex-col">
           <Link  href="https://www.aalto.fi/en/news/can-i-vote-an-online-tool-for-spreading-the-word-about-local-democracy-in-finland">
             <Image
              className="  md:mr-8  "

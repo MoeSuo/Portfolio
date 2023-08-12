@@ -8,7 +8,7 @@ import { FaChevronCircleRight } from "react-icons/fa";
 export default function Experience() {
   return (
     <>
-      <div className="max-w-[90%] mt-10 m-auto  px-8 text-left">
+      <div className="max-w-[90%] mt-10 m-auto  px-8 text-left ">
         <div className="experience">
           <h2 className="text-[#F8673B] font-bold text-2xl text-left">
             Experience
