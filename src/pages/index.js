@@ -8,6 +8,7 @@ import Technologies from "./components/Technologies";
 
 import Education from "./components/Education";
 import Expertise from "./components/Expertise";
+import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
   <Experience />
   <Education />
   <Expertise />
+
         </div>
     </>
   )

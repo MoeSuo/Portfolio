@@ -9,14 +9,15 @@ export default function Yle() {
         <div className="flex items-center mb-8">
           <Link href="https://www.aalto.fi/en/news/can-i-vote-an-online-tool-for-spreading-the-word-about-local-democracy-in-finland">
             <Image
-              className="latestImg mr-8"
+              className="latestImg mr-8  "
               src="/yle.svg.png"
               width={100}
               height={100}
+              style={{ width: 'auto', height: 'auto' }}
               alt=""
             />
           </Link>
-          <div className="latestImg ">
+          <div className="flex items-center mb-8">
           <Link href="https://www.aalto.fi/en/news/can-i-vote-an-online-tool-for-spreading-the-word-about-local-democracy-in-finland">
             CAN I VOTE
           </Link>

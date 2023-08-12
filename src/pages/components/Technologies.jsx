@@ -16,18 +16,16 @@ export default function Technologies() {
     <>
       {/* <h1 className="text-gray-900 font-bold   my-5 text-center"> Learning Technologies</h1> */}
       <div className="flex m-auto flex-col md:flex-row justify-center items-center max-w-[90%] mt-10 px-8 text-left">
-
-          <div className="flex  justify-evenly items-center gap-7 my-3 mx-3">
-            <Image src="/swagger.webp" alt="tech" width={75} height={75} />
-            <Image src="/prisma.svg" alt="tech" width={75} height={75} />
-            <Image src="/tailwindcss.png" alt="tech" width={120} height={120} />
-          </div>
-          <div className="flex  justify-evenly items-center gap-7 my-3 mx-3">
-            <Image src="/next.svg" alt="tech" width={75} height={75} />
-            <Image src="/js.png" alt="tech" width={45} height={45} />
-            <Image src="/MongoDB-Logo.jpg" alt="tech" width={75} height={75} />
-          </div>
-     
+        <div className="flex  justify-evenly items-center gap-7 my-3 mx-3">
+          <Image src="/swagger.webp" alt="tech" width={75} height={75} style={{ width: 'auto', height: 'auto' }}/>
+          <Image src="/prisma-logo_sm.jpg" alt="tech" width={75} height={75} style={{ width: 'auto', height: 'auto' }}/>
+          <Image src="/tailwindcss.png" alt="tech" width={120} height={120} style={{ width: 'auto', height: 'auto' }}/>
+        </div>
+        <div className="flex  justify-evenly items-center gap-7 my-3 mx-3">
+          <Image src="/nextjs-logo.png" alt="tech" width={75} height={75} style={{ width: 'auto', height: 'auto' }}/>
+          <Image src="/js.png" alt="tech" width={35} height={35} style={{ width: 'auto', height: 'auto' }}/>
+          <Image src="/MongoDB-Logo.jpg" alt="tech" width={75} height={75}style={{ width: 'auto', height: 'auto' }} />
+        </div>
       </div>
     </>
   );
