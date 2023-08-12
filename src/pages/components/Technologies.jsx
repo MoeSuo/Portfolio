@@ -6,7 +6,7 @@ export default function Technologies() {
     <>
       <div>
         <div className="my-8 ">
-          <div className="flex w-[90%] m-auto  flex-col md:flex-row justify-center items-center md:max-w-[100%] mt-10  text-left">
+          <div className="flex w-[90%] m-auto  px-8 flex-col md:flex-row justify-center items-center md:max-w-[100%] mt-10  text-left">
             <div>
               <p className="my-3">
                 As a new trainee learning to be a software developer, I'm

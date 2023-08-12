@@ -8,7 +8,8 @@ const navigation = [
   { name: "CV", href: "/", current: true },
   // { name: "Experience", href: "#", current: false },
   { name: "Visuals", href: "/visuals", current: false },
-   { name: "VR & AR", href: "/vr-ar", current: false },
+   { name: "Virtual Architecture", href: "/Virtual_Architecture", current: false },
+   { name: "Video Production", href: "/Videos", current: false },
 ];
 
 function classNames(...classes) {

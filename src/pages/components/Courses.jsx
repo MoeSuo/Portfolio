@@ -31,7 +31,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://bearit.udemy.com/course/agile-fundamentals-scrum-kanban-scrumban/">
                   <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                    Agile Fundamentals: Including Scrum & Kanban
+                    Agile: Scrum & Kanban
                   </li>
                 </Link>
               </div>
@@ -51,7 +51,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://bearit.udemy.com/course/essentials-of-software-as-a-seervice-saas/">
                   <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                    Essentials of Software-as-a-Service (SaaS) Business
+                    SaaS as a Business
                   </li>
                 </Link>
               </div>
@@ -71,7 +71,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://bearit.udemy.com/course/oouxfundamentals/">
                 <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                  Object-Oriented UX (OOUX) Fundamentals
+                  Object-Oriented UX (OOUX)
                 </li>
                 </Link>
               </div>
@@ -91,7 +91,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://bearit.udemy.com/course/openapi-specification-swagger-tools-zero-to-master/">
                 <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                  OpenAPI Specification & Swagger Tools
+                  OpenAPI & Swagger Tools
                 </li>
                 </Link>
               </div>
@@ -131,7 +131,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://bearit.udemy.com/course/nextjs-react-the-complete-guide/">
                 <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                  Next.js & React - The Complete Guide
+                  Nextjs & React - Complete Guide
                 </li>
                 </Link>
               </div>
@@ -212,7 +212,7 @@ export default function Courses() {
                 </svg>
                 <Link target="_blank" href="https://www.linkedin.com/learning/mapping-the-modern-web-design-process">
                 <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
-                  Mapping the Modern Web Design Process.
+                  Mapping Web Design Process.
                 </li>
                 </Link>
               </div>

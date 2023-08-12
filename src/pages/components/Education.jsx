@@ -13,7 +13,7 @@ export default function Education() {
           <div className="abroad">
             <ul>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
                  Training program LearnIT -
                 Coding and Finnish Language.
@@ -27,7 +27,7 @@ export default function Education() {
               </li>
               </div>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full ">
                 [1.5 years] Program in Media
                 and Arts / Interactive Media.{" "}
@@ -41,7 +41,7 @@ export default function Education() {
               </li>
               </div>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
                 Energia-asiantuntija-koulutus.{" "}
                 <Link
@@ -54,7 +54,7 @@ export default function Education() {
               </li>
               </div>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
                  CAD paja (CAD-ohjelmistojen
                 käyttö / 3D mallin tekeminen).{" "}
@@ -68,7 +68,7 @@ export default function Education() {
               </li>
               </div>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
                 Architecture Visualization.{" "}
                 <Link
@@ -81,7 +81,7 @@ export default function Education() {
               </li>
               </div>
               <div className="flex flex-row items-center">
-              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-10 h-10" />
+              <IoIosSchool className="mx-2 md:w-4 md:h-4 w-6 h-6" />
               <li className="bg-gray-50 my-2 flex flex-col md:flex-row leading-1 md:items-center items-baseline w-full">
                 Bachelor's Degree Program in
                 Media and Arts / Architecture. Alexandria-Egypt
