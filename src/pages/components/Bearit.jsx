@@ -9,11 +9,10 @@ export default function Bearit() {
           <h2 className="text-gray-800 font-bold text-left mb-4">
             Ongoing Education
           </h2>
-          <Link href="https://bearit.fi">bearit.fi</Link>
-          <p className="">Software Development training </p>
+          {/* <Link href="https://bearit.fi">bearit.fi</Link> */}
           <Link href="https://bearit.fi">
             <Image
-              className=""
+              className="mb-8"
               src="/bearit.png"
               width={200}
               height={200}
@@ -21,6 +20,7 @@ export default function Bearit() {
               alt=""
             />{" "}
           </Link>
+          <p className="">Software Development training </p>
         </div>
       </div>
     </>
