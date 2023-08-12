@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
 
 
   return (<>
-  <div className="max-w-[1200px] mx-auto h-screen">
+  <div className="w-full mx-auto h-screen">
   <NavBar />
   <Component {...pageProps} />
   

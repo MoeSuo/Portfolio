@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaSlack  } from "react-icons/fa";
 import { ImWhatsapp, ImMobile, ImMail4 } from "react-icons/im";
+import { useRouter } from "next/router";
 
 const navigation = [
   { name: "CV", href: "/", current: true },
@@ -24,14 +25,16 @@ function classNames(...classes) {
 }
 
 export default function NavBar() {
+  const router = useRouter(); // Initialize the useRouter hook
+
   return (
-    <Disclosure as="nav" className="bg-[#F0F4F5] h-28 relative z-10">
+    <Disclosure as="nav" className="bg-[#F0F4F5] h-28 relative z-10 ">
       {({ open }) => (
         <>
           <div className="max-w-[100%]  h-28 ">
-            <div className="relative flex  items-center justify-between h-28 px-8">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden ">
-                {/* Mobile menu button*/}
+            <div className="relative flex  items-center justify-between h-28 px-8 ">
+              <div className="absolute inset-y-0 left-4 flex items-center sm:hidden ">
+                {/* Mobile menu button */}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
@@ -47,6 +50,7 @@ export default function NavBar() {
                   {/* Hidden on small screens */}
                   <div className="flex flex-col  items-center  md:block md:h-28">
                     {/* Displayed on small screens */}
+                    {/* ... */}
                     <Image
                       className="hidden md:block  md:m-8  h-full w-auto rounded-full"
                       src="/mypic.jpg"
@@ -60,15 +64,16 @@ export default function NavBar() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
-                        {/* Use a div or another element instead of the anchor */}
                         <div
                           className={classNames(
-                            item.current
+                            router.pathname === item.href
                               ? "bg-gray-900 text-white"
                               : "text-gray-800 hover:bg-gray-700 hover:text-white",
                             "rounded-md px-3 py-2 text-sm font-medium"
                           )}
-                          aria-current={item.current ? "page" : undefined}
+                          aria-current={
+                            router.pathname === item.href ? "page" : undefined
+                          }
                         >
                           {item.name}
                         </div>
@@ -77,19 +82,16 @@ export default function NavBar() {
                   </div>
                 </div>
               </div>
-
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* <span className="text-gray-100">Download</span> */}
+                {/* Download button */}
                 <button
                   type="button"
                   className="relative rounded-full bg-gray-200 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
                 >
                   <span className="absolute -inset-1.5" />
                   <span className="sr-only">Download</span>
-
                   <HiDownload className="h-6 w-6" aria-hidden="true" />
                 </button>
-
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
@@ -118,7 +120,7 @@ export default function NavBar() {
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                             <ImMail4 className="mr-2 h-4 w-4 inline-block" />
+                            <ImMail4 className="mr-2 h-4 w-4 inline-block" />
                             Email
                           </Link>
                         )}
@@ -132,9 +134,8 @@ export default function NavBar() {
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                             <ImMobile className="mr-2 h-4 w-4 inline-block" />
+                            <ImMobile className="mr-2 h-4 w-4 inline-block" />
                             Call
-                          
                           </Link>
                         )}
                       </Menu.Item>
@@ -172,7 +173,6 @@ export default function NavBar() {
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2 bg-gray-100 ">
               {navigation.map((item) => (
@@ -181,12 +181,14 @@ export default function NavBar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
+                    router.pathname === item.href
                       ? "bg-gray-900 text-white "
                       : "text-gray-800 hover:bg-gray-700 hover:text-white bg-gray-200",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
-                  aria-current={item.current ? "page" : undefined}
+                  aria-current={
+                    router.pathname === item.href ? "page" : undefined
+                  }
                 >
                   {item.name}
                 </Disclosure.Button>
