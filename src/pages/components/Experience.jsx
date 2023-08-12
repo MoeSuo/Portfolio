@@ -3,60 +3,107 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { HiDownload } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
-const navigation = [
-  { name: "Summary", href: "#", current: true },
-  { name: "Experience", href: "#", current: false },
-  { name: "Education", href: "#", current: false },
-  { name: "Expertise", href: "#", current: false },
-];
+import { FaChevronCircleRight } from "react-icons/fa";
 
 export default function Experience() {
   return (
     <>
       <div className="max-w-[90%] mt-10 m-auto  px-8 text-left">
         <div className="experience">
-          <h2 className="text-[#F8673B] font-bold text-2xl text-left">Experience</h2>
+          <h2 className="text-[#F8673B] font-bold text-2xl text-left">
+            Experience
+          </h2>
           <div className="my-8">
             <div className="where">
-            <p className="text-[#2a272c86] text-sm">2010 - Current</p>
+              <p className="text-[#2a272c86] text-sm">2010 - Current</p>
               <p className="text-[#2a272c86] text-sm">Finalnd</p>
               <p className="text-[#F8673B] text-sm text-left">
                 {/* <strong> */}
-                  Freelancer / Continuous Resilient Self-Improver{" "}
-                {/* </strong> */}
+                Interactive media designer {/* </strong> */}
               </p>
-              <p className="my-3">
-                While adapting to a new country, I encountered the challenge of
-                unemployment for a period of time. However, I refused to let
-                this hold me back. Instead, I took it as an opportunity to
-                invest in myself, learning new skills through online courses,
-                self-teaching, and the support of Finland's education system.
-                During this time, I also worked on personal projects and
-                freelance jobs in areas such as 3D architectural visualization,
-                virtual tours for real estate, WordPress development,
-                user-experience design, and product visualizations. These
-                projects provided me with valuable experience and insights into
-                the latest technologies and trends, and I continually pushed
-                myself to improve and learn more.
-              </p>
-            </div>
+              <div>
+                <p className="my-3">
+                  Throughout my recent experiences, I have focused on personal
+                  projects and freelance engagements encompassing diverse areas
+                  such as 3D/360 architectural visualization, virtual tours for
+                  real estate, web design, and product visualizations. These
+                  ventures have significantly enriched my expertise and provided
+                  insights into cutting-edge technologies and trends, propelling
+                  me to continuously enhance my capabilities. <br></br>
+                  <br></br>
+                  <strong>
+                    Some higshlights of my accomplishments include:{" "}
+                  </strong>
+                  <br></br>
+                  <br></br>
+                </p>
+
+                <div className="flex items-start  ">
+                  <div>
+                    <FaChevronCircleRight className="mr-2 my-1" />
+                  </div>
+                  <div>
+                    Developing a comprehensive visual identity for a startup,
+                    encompassing a fully-fledged website, logo design, printable
+                    assets, and an immersive 360 VR experience showcasing the
+                    company's product. This endeavor contributed to the
+                    company's recognition, leading to its prestigious win of the
+                    GIFA Best Invention of the Year award. Furthermore, the
+                    company received commendation Email from President Sauli
+                    Niinistö office, further emphasizing the impact of the
+                    project.
+                    <br></br>
+                    <br></br>
+                  </div>
+                </div>
+
+                <div className="flex items-start  ">
+                  <div>
+                    <FaChevronCircleRight className="mr-2 my-1" />
+                  </div>
+                  <div>
+                    Crafting an interactive walk-through for the UAE Ministry of
+                    Investment's new headquarters in the Abu Dhabi. This project
+                    showcased my ability to seamlessly merge creativity and
+                    functionality to deliver a compelling user experience.
+                    <br></br>
+                    <br></br>
+                  </div>
+                  </div>
+                  <div className="flex items-start  ">
+                    <div>
+                      <FaChevronCircleRight className="mr-2 my-1" />
+                    </div>
+                    <div>
+                      In addition to these accomplishments, I have undertaken
+                      various personal practice projects, including the creation
+                      of 3D renderings for interior and architectural spaces,
+                      and an interactive sales application tailored for real
+                      estate purposes.
+                      <br></br>
+                      <br></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
           </div>
           <div className="my-8">
             <div className="where">
               <p className="text-[#2a272c86] text-sm">2001 - 2010</p>
-              <p className="text-[#2a272c86] text-sm">Egypt - Oman - Kuwait - UAE</p>
+              <p className="text-[#2a272c86] text-sm">
+                Egypt - Oman - Kuwait - UAE
+              </p>
               <p className="text-[#991861] font-semibold text-left">
                 {/* <strong> */}
-                  Architect
-                  {/* </strong> */}
+                Architect
+                {/* </strong> */}
               </p>
               <p className="my-3">
-                During my time working in various positions in architecture,
-                including supervision and design roles, I developed a range of
-                skills that are highly relevant to software development. These
-                skills include collaboration and coordination with team members
-                and stakeholders, problem-solving, critical thinking, a
-                continuous learning mindset, and project management expertise.
+                In my previous roles in architecture, I developed a range of
+                skills that are highly relevant to software development,
+                including collaboration, teamwork, problem-solving, critical
+                thinking, and project management expertise.
               </p>
             </div>
           </div>
