@@ -94,7 +94,7 @@ export default function Experience() {
               <p className="text-[#2a272c86] text-sm">
                 Egypt - Oman - Kuwait - UAE
               </p>
-              <p className="text-[#991861] font-semibold text-left">
+              <p className="text-[#F8673B] text-sm text-left">
                 {/* <strong> */}
                 Architect
                 {/* </strong> */}
