@@ -65,10 +65,10 @@ function App({ Component, pageProps }) {
       <Head>
       <title>{pageTitle}</title>
 
-      <meta name="image" property="og:image" content="/mypic.jpg"/>
+      <meta name="image" property="og:image" content="/mspic.jpg"/>
       <meta name="author" content="Mohamed Sallam" /> 
   <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <meta property="og:image" content="/mypic.jpg" />
+  <meta property="og:image" content="/mspic.jpg" />
   <link rel="icon" href="/favicon.png" />
   <meta name="description" property="og:description" content="I'm a highly skilled interactive media designer with a unique professional journey. My background in architecture, alongside my ongoing studies in 360-degree, VR/AR, and UX/UI, has shaped me into a well-rounded generalist."></meta>
 

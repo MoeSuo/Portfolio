@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { useState } from "react";
 
 import {
   Accordion,
@@ -12,8 +13,11 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import "react-accessible-accordion/dist/fancy-example.css";
 
+import { Document, Page } from 'react-pdf';
+
 export default function Example() {
   
+ 
   return (
     <>
       <div id="expertise" className="max-w-[90%] mt-10 m-auto px-8 text-left">
@@ -118,6 +122,8 @@ export default function Example() {
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
+
+
             </AccordionItemPanel>
           </AccordionItem>
 
