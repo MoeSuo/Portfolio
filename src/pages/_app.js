@@ -45,7 +45,7 @@ function App({ Component, pageProps }) {
     </Script>
 
 
-    
+
 <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -66,7 +66,10 @@ function App({ Component, pageProps }) {
 
       <title>{pageTitle}</title>
 
+      <meta name="image" property="og:image" content="/mypic.jpg"/>
+      <meta name="author" content="Mohamed Sallam" /> 
   <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
   <link rel="icon" href="/favicon.png" />
 
 
