@@ -13,6 +13,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 
 export default function Example() {
+  
   return (
     <>
       <div id="expertise" className="max-w-[90%] mt-10 m-auto px-8 text-left">
@@ -20,8 +21,8 @@ export default function Example() {
           Expertise
         </h1>
 
-        <Accordion>
-          <AccordionItem>
+        <Accordion >
+          <AccordionItem >
             <AccordionItemHeading>
               <AccordionItemButton>Coding Skills:</AccordionItemButton>
             </AccordionItemHeading>
@@ -72,7 +73,7 @@ export default function Example() {
                 Proficient in the art of prototyping, I seamlessly navigate
                 <strong>
                   {" "}
-                  Adobe XD, Figma, and even Paper Prototyes.
+                  Adobe XD, Figma, </strong> and even  <strong>Paper Prototyes.
                 </strong>{" "}
                 This skill set empowers me to translate abstract concepts into
                 tangible prototypes, fostering effective communication and
@@ -83,13 +84,50 @@ export default function Example() {
               </p>
             </AccordionItemPanel>
           </AccordionItem>
+
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>UX Design:</AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <h2 className="text-[#F8673B] text-md font-bold my-4">
+                Complete UX project - Virtual Gallery
+              </h2>
+              <p>
+                ARTGUARD is a specialized online platform catering to the
+                distinct needs of museums and art galleries, offering strategic
+                solutions to navigate the challenges posed by the ongoing
+                Covid-19 pandemic. <br></br>
+                <br></br>Our services extend beyond crisis management, aiding
+                institutions in crafting a robust digital framework to broaden
+                their global reach and fortify their preparedness against
+                potential future adversities.<br></br>
+                <br></br> My comprehensive research underscores ARTGUARD as a
+                potent business prospect, addressing a pressing issue for nearly
+                1000 museums and art galleries. Its viability is underscored by
+                its targeted focus on a niche demographic that possesses both
+                the demand and financial capacity. <br></br><br></br>Leveraging an
+                ingeniously designed website, we deliver in-demand services
+                tailored to the contemporary landscape, including: - Digitally
+                safeguarding artifacts of cultural significance. - Guiding
+                museums in establishing their digital presence. - Facilitating
+                expansive engagement with diverse global audiences.<br></br><br></br>
+              </p>
+              <iframe
+                src="/pdf/cuxp.pdf" // Replace with the actual path to your PDF file
+                className="w-full h-[70vh]"
+                title="Embedded PDF"
+              />
+            </AccordionItemPanel>
+          </AccordionItem>
+
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
-                Service Design / UX Fundamentals:
+                Service Design:
               </AccordionItemButton>
             </AccordionItemHeading>
-            <AccordionItemPanel >
+            <AccordionItemPanel>
               <p>
                 Acquiring Service Design and UX Fundamentals during my studies
                 at TAMK has been transformative. Armed with these skills, I've
@@ -107,28 +145,27 @@ export default function Example() {
                 <strong> post-TAMK, </strong> ensuring seamless interactions and
                 delightful experiences.
               </p>
-              <h2 className="text-[#F8673B] text-md font-bold my-4">Business Model Canvas</h2>
+              <h2 className="text-[#F8673B] text-md font-bold my-4">
+                Business Model Canvas
+              </h2>
               <iframe
                 src="/pdf/bmc.pdf" // Replace with the actual path to your PDF file
-                className="w-full h-full"
+                className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
               <br></br>
               <br></br>
-              <h2 className="text-[#F8673B] text-md font-bold my-4">Service Blueprint</h2>
+              <h2 className="text-[#F8673B] text-md font-bold my-4">
+                Service Blueprint
+              </h2>
               <iframe
                 src="/pdf/sda.pdf" // Replace with the actual path to your PDF file
-                className="w-full h-full"
+                className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
               <br></br>
               <br></br>
-              <h2 className="text-[#F8673B] text-md font-bold my-4">Complete UX project - Virtual Gallery</h2>
-              <iframe
-                src="/pdf/cuxp.pdf" // Replace with the actual path to your PDF file
-                className="w-full h-full"
-                title="Embedded PDF"
-              />
+              
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
