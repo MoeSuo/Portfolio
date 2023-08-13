@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Yle() {
   return (
     <>
-      <div className="md:mx-12 my-8  flex flex-col ">
+      <div className="my-8  flex flex-col ">
 
           <h2 className="text-gray-800 font-bold text-left   mb-4">Latest Project</h2>
         <div className="flex md:flex-row flex-col ">

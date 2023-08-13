@@ -44,7 +44,7 @@ export default function Technologies() {
                 <div  className="bg-[#F4FDFF]  my-2 p-4 md:w-[30%] shadow-sm  opacity-100 transition duration-300 ease-in-out hover:bg-opacity-10 ">
                   <strong >Other Tools:</strong>
                   <ul className=" my-2">
-                    <li> - Swagger</li>
+                  <div><li> - Swagger</li> </div>  
                     <li> - Three js</li>
                     <li> - Three fiber</li>
                   </ul>
