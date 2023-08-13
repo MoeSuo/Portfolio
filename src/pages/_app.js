@@ -8,6 +8,19 @@ import Head from "next/head";
 import Footer from "./components/Footer";
 
 function App({ Component, pageProps }) {
+  const router = useRouter();
+  // Get the pathname from the router object
+  const pathname = router.pathname;
+  // Define a mapping of route paths to titles
+  const titleMap = {
+    '/': 'Mohamed Sallam CV',
+    '/visuals': 'Visuals',
+    '/Virtual_Architecture': 'Virtual Architecture',
+    '/Videos': 'Video Production',
+    // Add more route paths and titles as needed
+  };
+
+  const pageTitle = titleMap[pathname] || 'Mohamed Sallam Portfolio';
 
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout || ((page) => page);
@@ -32,9 +45,13 @@ function App({ Component, pageProps }) {
       </Script>
 
       <Head>
-        <title>Welcome!</title>
-        <meta name="viewport" content="initial-scale=1, width=device-width" />
-      </Head>
+
+      <title>{pageTitle}</title>
+
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="icon" href="/favicon.png" />
+</Head>
+
       
   <div className="w-full mx-auto h-screen">
   <NavBar />
