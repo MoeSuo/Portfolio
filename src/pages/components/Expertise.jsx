@@ -155,7 +155,7 @@ export default function Example() {
                 Business Model Canvas
               </h2>
               <iframe
-                src="/pdf/bmc.pdf" // Replace with the actual path to your PDF file
+                src="/pdf/Service_Blueprint.pdf" // Replace with the actual path to your PDF file
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
@@ -165,7 +165,7 @@ export default function Example() {
                 Service Blueprint
               </h2>
               <iframe
-                src="/pdf/sda.pdf" // Replace with the actual path to your PDF file
+                src="/pdf/Business_Model_Canvas.pdf" // Replace with the actual path to your PDF file
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />

@@ -32,7 +32,7 @@ export default function Experience() {
                   me to continuously enhance my capabilities. <br></br>
                   <br></br>
                   <strong>
-                    Some higshlights of my accomplishments include:{" "}
+                    Some highlights of my accomplishments include:{" "}
                   </strong>
                   <br></br>
                   <br></br>
