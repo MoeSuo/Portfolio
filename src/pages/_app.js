@@ -28,7 +28,24 @@ function App({ Component, pageProps }) {
 
   
   return (<>
+  {/* <Sendinblue />  */}
+  <Script >
+      {`
+        (function(d, w, c) {
+          w.BrevoConversationsID = '64d8b8873ecdf44215688032';
+          w[c] = w[c] || function() {
+              (w[c].q = w[c].q || []).push(arguments);
+          };
+          var s = d.createElement('script');
+          s.async = true;
+          s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+          if (d.head) d.head.appendChild(s);
+      })(document, window, 'BrevoConversations');
+      `}
+    </Script>
 
+
+    
 <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -53,21 +70,7 @@ function App({ Component, pageProps }) {
   <link rel="icon" href="/favicon.png" />
 
 
-  {/* <Sendinblue />  */}
-<Script >
-      {`
-        (function(d, w, c) {
-          w.BrevoConversationsID = '64d8b8873ecdf44215688032';
-          w[c] = w[c] || function() {
-              (w[c].q = w[c].q || []).push(arguments);
-          };
-          var s = d.createElement('script');
-          s.async = true;
-          s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
-          if (d.head) d.head.appendChild(s);
-      })(document, window, 'BrevoConversations');
-      `}
-    </Script>
+
 </Head>
 
       
