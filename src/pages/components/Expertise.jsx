@@ -118,7 +118,7 @@ export default function Example() {
                 expansive engagement with diverse global audiences.<br></br><br></br>
               </p>
               <iframe
-                src="/pdf/cuxp.pdf" // Replace with the actual path to your PDF file
+                src="/pdf/User_Experience.pdf" // Replace with the actual path to your PDF file
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
@@ -155,7 +155,7 @@ export default function Example() {
                 Business Model Canvas
               </h2>
               <iframe
-                src="/pdf/Service_Blueprint.pdf" // Replace with the actual path to your PDF file
+                src="/pdf/Business_Model_Canvas.pdf" // Replace with the actual path to your PDF file
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />
@@ -165,7 +165,7 @@ export default function Example() {
                 Service Blueprint
               </h2>
               <iframe
-                src="/pdf/Business_Model_Canvas.pdf" // Replace with the actual path to your PDF file
+                src="/pdf/Service_Blueprint.pdf" // Replace with the actual path to your PDF file
                 className="w-full h-[70vh]"
                 title="Embedded PDF"
               />

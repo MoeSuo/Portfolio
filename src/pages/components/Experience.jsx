@@ -16,7 +16,7 @@ export default function Experience() {
           <div className="my-8">
             <div className="where">
               <p className="text-[#2a272c86] text-sm">2010 - Current</p>
-              <p className="text-[#2a272c86] text-sm">Finalnd</p>
+              <p className="text-[#2a272c86] text-sm">Finland</p>
               <p className="text-[#F8673B] text-sm text-left">
                 {/* <strong> */}
                 Interactive media designer {/* </strong> */}
