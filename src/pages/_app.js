@@ -54,7 +54,7 @@ function App({ Component, pageProps }) {
 
 
   {/* <Sendinblue />  */}
-<Script id="google-tag-manager" strategy="afterInteractive" type="text/javascript">
+<Script >
       {`
         (function(d, w, c) {
           w.BrevoConversationsID = '64d8b8873ecdf44215688032';
