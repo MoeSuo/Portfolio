@@ -17,3 +17,7 @@ body{
   height: 100%;
   border: none;
 }
+
+.modal-logo__inner{
+  display: none !important;
+}
