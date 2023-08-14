@@ -23,13 +23,8 @@ export default function Experience() {
               </p>
               <div>
                 <p className="my-3">
-                  Throughout my recent experiences, I have focused on personal
-                  projects and freelance engagements encompassing diverse areas
-                  such as 3D/360 architectural visualization, virtual tours for
-                  real estate, web design, and product visualizations. These
-                  ventures have significantly enriched my expertise and provided
-                  insights into cutting-edge technologies and trends, propelling
-                  me to continuously enhance my capabilities. <br></br>
+                  I have focused on personal projects and freelance engagements encompassing diverse areas such as 3D/360 architectural visualization, virtual tours for real estate, web design, and product visualizations. These projects have significantly enriched my expertise and provided me with opportunities to use cutting-edge technologies and  understand current trends, enabling me to continuously enhance my capabilities.
+ <br></br>
                   <br></br>
                   <strong>
                     Some highlights of my accomplishments include:{" "}
