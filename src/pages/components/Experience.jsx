@@ -27,7 +27,7 @@ export default function Experience() {
  <br></br>
                   <br></br>
                   <strong>
-                    Some highlights of my accomplishments include:{" "}
+                    My accomplishments include:
                   </strong>
                   <br></br>
                   <br></br>
