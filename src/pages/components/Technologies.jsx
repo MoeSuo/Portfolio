@@ -9,11 +9,7 @@ export default function Technologies() {
           <div className="flex w-[90%] m-auto  px-8 flex-col md:flex-row justify-center items-center md:max-w-[100%] mt-10  text-left">
             <div>
               <p className="my-3">
-                As a new trainee learning to be a software developer, I'm
-                getting really good at using the latest tools and technologies.
-                I started with almost no knowledge, but within just a month, I
-                was able to build a working web app from scratch. It's pretty
-                cool how much progress I've made so far!. <br></br>
+                As a software developer, I am dedicated to self-improvement and I am constantly learning new tools and technologies. Within a month, I was able to build a working web app from scratch. It's pretty cool how much progress I've made so far!. <br></br>
               </p>
               <br></br>
               <strong>My evolving tech stack includes:</strong>
