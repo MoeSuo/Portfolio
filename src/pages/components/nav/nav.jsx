@@ -88,7 +88,7 @@ export default function NavBar() {
                 <Link
                 target="_blank"
                   href="mohamed_sallam_cv.pdf" // Replace with the actual path to your PDF file
-                  download="Mohamed_Sallam_CV.pdf" // Customize the downloaded file name
+                  download="mohamed_sallam_cv.pdf" // Customize the downloaded file name
                   className="flex  px-4 relative rounded-full bg-gray-200 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
                 >
                   CV
