@@ -30,7 +30,7 @@ export default function Yle() {
 
 
         <div className="flex md:flex-row flex-col">
-          <Link  href="https://www.aalto.fi/en/news/can-i-vote-an-online-tool-for-spreading-the-word-about-local-democracy-in-finland">
+          <Link  href="https://main.dps6886imp1cr.amplifyapp.com/">
             <Image
              className="  md:mr-8  "
               src="/garden_logo.png"
