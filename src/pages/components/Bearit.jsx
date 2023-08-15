@@ -10,7 +10,7 @@ export default function Bearit() {
             Ongoing Education
           </h2>
           {/* <Link href="https://bearit.fi">bearit.fi</Link> */}
-          <Link href="https://bearit.fi">
+          <Link target="_blank" href="https://bearit.fi">
             <Image
               className="mb-4"
               src="/bearit.png"
