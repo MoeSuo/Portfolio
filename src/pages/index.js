@@ -17,6 +17,23 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
 <>
+      {/* <google tags />  */}
+      <div className="container">
+        <Script id="google-analytics">
+          {`
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCTGK45JLT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NCTGK45JLT');
+</script>
+`}
+        </Script>
+      </div>
+
 <div >
 <Title />
   <Summary />
